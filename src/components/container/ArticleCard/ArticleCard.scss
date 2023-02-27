@@ -1,0 +1,10 @@
+.ArticleCard {
+    width: 100%;
+    border: thin solid black;
+    padding: 15px;
+
+    &__title {
+        font-size: 1.25rem;
+        margin-bottom: 5px;
+    }
+}

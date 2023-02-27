@@ -1,0 +1,22 @@
+.Header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+
+  &__home {
+    padding: 20px;
+    width: 150px;
+    flex-grow: 0;
+    font-size: 32px;
+
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+  }
+
+  &__searchbar {
+    width: auto;
+    flex-grow: 2;
+  }
+}
