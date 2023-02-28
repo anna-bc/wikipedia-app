@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Searchbar from "../../container/Searchbar/Searchbar";
 import "./Header.scss";
 
-function Header({ setArticlesList }) {
+function Header({ setSearchTerm }) {
   return (
     <div className="Header">
       <div className="Header__home">
@@ -13,7 +13,7 @@ function Header({ setArticlesList }) {
       </div>
       <Searchbar
         className="Header__searchbr"
-        setArticlesList={setArticlesList}
+        setSearchTerm={setSearchTerm}
       />
     </div>
   );
